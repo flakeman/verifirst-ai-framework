@@ -188,6 +188,13 @@ What this metric deliberately ignores: pages, lines of code, number of drafts. A
 
 ---
 
+## Integration and scaling
+
+- [Integrating with Agile and Waterfall](docs/en/integration.md) — Scrum, Kanban, V-model, hybrids, with worked examples.
+- [Scaling: from one team to the whole company](docs/en/scaling.md) — team of teams (SAFe-style) and portfolio level, with examples.
+
+---
+
 ## Anti-patterns
 
 | Anti-pattern | Why it hurts | VeriFirst fix |
@@ -228,6 +235,9 @@ What this metric deliberately ignores: pages, lines of code, number of drafts. A
 ├── README.md                     # Framework (English)
 ├── LICENSE                       # CC BY 4.0
 ├── README.ru.md                  # Framework (Russian)
+├── docs/
+│   ├── en/                       # Integration & scaling (English)
+│   └── ru/                       # Integration & scaling (Russian)
 └── templates/
     ├── en/
     │   ├── task-triage.md        # Trust Map worksheet
