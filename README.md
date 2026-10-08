@@ -33,6 +33,7 @@ Everything else follows from it.
 | Put it into your team's GitHub or Jira | [Integrations](integrations/README.md) — issue form, PR template, Jira setup |
 | Use it inside Scrum, Kanban or Waterfall | [Integration guide](docs/en/integration.md) |
 | Roll it out across several teams or a company | [Scaling guide](docs/en/scaling.md) |
+| See real cases from practice | [Case studies](docs/en/case-studies.md) — 6 situations where AI erred or could have, and what caught it |
 | Assess where your team or company stands | [Maturity model](docs/en/maturity-model.md) — 5 levels, self-assessment, next steps |
 | Talk to risk managers and auditors | [Mapping to NIST AI RMF and ISO/IEC 42001](docs/en/standards-mapping.md) |
 
