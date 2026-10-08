@@ -1,0 +1,77 @@
+name: AI task (VeriFirst)
+description: Delegate a task to AI with an Intent Contract
+title: "[AI] "
+labels: ["ai-task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill in the Intent Contract. **If you cannot write the Done criteria, the task is not ready to be delegated.**
+        Framework: https://github.com/flakeman/verifirst-ai-framework
+  - type: dropdown
+    id: quadrant
+    attributes:
+      label: Trust Map quadrant
+      options:
+        - "🟢 Delegate — low cost of error, easy to verify"
+        - "🟡 Delegate + Review — high cost of error, easy to verify"
+        - "🔵 Explore — low cost of error, hard to verify"
+        - "🔴 Advise — high cost of error, hard to verify"
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: Why is this needed? What problem does it solve, and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done criteria
+      description: Observable, checkable conditions — each answerable with yes / no.
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Boundaries
+      description: What must NOT be changed, assumed or invented.
+      value: |
+        - Do not change:
+        - Do not assume:
+        - Do not invent facts, sources, numbers, names or API fields.
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs & context
+      description: Materials, constraints, related decisions (D-…).
+  - type: textarea
+    id: verifier
+    attributes:
+      label: Verifier & method
+      description: Who or what checks the result, and how? Must not be the session that produced it.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output format
+      description: In what shape should the result come back?
+  - type: dropdown
+    id: reversibility
+    attributes:
+      label: Highest reversibility level involved
+      options:
+        - "R0 — read-only"
+        - "R1 — reversible, local"
+        - "R2 — reversible with effort (backup / approval first)"
+        - "R3 — irreversible (human gate for every action)"
+    validations:
+      required: true

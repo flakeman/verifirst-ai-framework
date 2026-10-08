@@ -22,6 +22,20 @@ Everything else follows from it.
 
 ---
 
+![VeriFirst: Trust Map and the cycle](assets/verifirst-en.svg)
+
+## Start here
+
+| If you want to… | Open |
+|---|---|
+| Get the idea in 5 minutes | [Cheat sheet](CHEATSHEET.md) |
+| Make your AI assistant follow VeriFirst automatically | [AI instructions](ai-instructions/README.md) — Claude, ChatGPT, Claude Code, Cursor, Copilot |
+| Put it into your team's GitHub or Jira | [Integrations](integrations/README.md) — issue form, PR template, Jira setup |
+| Use it inside Scrum, Kanban or Waterfall | [Integration guide](docs/en/integration.md) |
+| Roll it out across several teams or a company | [Scaling guide](docs/en/scaling.md) |
+
+---
+
 ## Principles
 
 | # | Principle | What it means in practice |
@@ -235,6 +249,10 @@ What this metric deliberately ignores: pages, lines of code, number of drafts. A
 ├── README.md                     # Framework (English)
 ├── LICENSE                       # CC BY 4.0
 ├── README.ru.md                  # Framework (Russian)
+├── CHEATSHEET.md / .ru.md        # One-page summary
+├── assets/                       # Diagrams (EN, RU)
+├── ai-instructions/              # Prompts and rule files for AI tools
+├── integrations/                 # GitHub issue/PR templates, Jira setup
 ├── docs/
 │   ├── en/                       # Integration & scaling (English)
 │   └── ru/                       # Integration & scaling (Russian)

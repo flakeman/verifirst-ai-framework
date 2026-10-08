@@ -1,0 +1,77 @@
+name: Задача для ИИ (VeriFirst)
+description: Поставить задачу ИИ через Контракт намерения
+title: "[ИИ] "
+labels: ["ai-task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Заполните Контракт намерения. **Если не получается сформулировать критерий готовности, задача не готова к делегированию.**
+        Фреймворк: https://github.com/flakeman/verifirst-ai-framework
+  - type: dropdown
+    id: quadrant
+    attributes:
+      label: Квадрант Карты доверия
+      options:
+        - "🟢 Делегируй — ошибка дешёвая, проверить легко"
+        - "🟡 Делегируй + проверяй — ошибка дорогая, проверить легко"
+        - "🔵 Исследуй — ошибка дешёвая, проверить трудно"
+        - "🔴 Советуйся — ошибка дорогая, проверить трудно"
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Цель
+      description: Зачем это нужно? Какую проблему и для кого решает?
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Критерий готовности
+      description: Наблюдаемые, проверяемые условия — на каждое можно ответить «да / нет».
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Границы
+      description: Что НЕЛЬЗЯ менять, предполагать или выдумывать.
+      value: |
+        - Не менять:
+        - Не предполагать:
+        - Не выдумывать факты, источники, цифры, имена и поля API.
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Входные данные и контекст
+      description: Материалы, ограничения, связанные решения (D-…).
+  - type: textarea
+    id: verifier
+    attributes:
+      label: Проверяющий и способ
+      description: Кто или что проверяет результат и как? Не та же сессия, что создала результат.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Формат результата
+      description: В каком виде вернуть результат?
+  - type: dropdown
+    id: reversibility
+    attributes:
+      label: Максимальный уровень обратимости
+      options:
+        - "R0 — только чтение"
+        - "R1 — обратимо, локально"
+        - "R2 — обратимо с усилием (сначала бэкап или одобрение)"
+        - "R3 — необратимо (человек одобряет каждое действие)"
+    validations:
+      required: true

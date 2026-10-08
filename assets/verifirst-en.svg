@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="960" height="560" rx="16" fill="#ffffff"/>
+  <text x="40" y="56" font-size="30" font-weight="700" fill="#111827">VeriFirst</text>
+  <text x="40" y="86" font-size="16" fill="#4b5563">Design the work so that an AI mistake is easy to notice and cheap to fix.</text>
+
+  <text x="40" y="132" font-size="17" font-weight="700" fill="#111827">1 · Trust Map</text>
+  <text x="195" y="158" font-size="13" fill="#4b5563" text-anchor="middle">Easy to verify</text>
+  <text x="375" y="158" font-size="13" fill="#4b5563" text-anchor="middle">Hard to verify</text>
+  <text x="96" y="238" font-size="13" fill="#4b5563" text-anchor="middle" transform="rotate(-90 96 238)">Low cost of error</text>
+  <text x="96" y="388" font-size="13" fill="#4b5563" text-anchor="middle" transform="rotate(-90 96 388)">High cost of error</text>
+
+  <rect x="110" y="168" width="170" height="140" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <circle cx="132" cy="192" r="8" fill="#16a34a"/>
+  <text x="148" y="197" font-size="16" font-weight="700" fill="#14532d">Delegate</text>
+  <text x="126" y="226" font-size="13" fill="#14532d">AI does it</text>
+  <text x="126" y="244" font-size="13" fill="#14532d">end-to-end,</text>
+  <text x="126" y="262" font-size="13" fill="#14532d">spot-check</text>
+
+  <rect x="290" y="168" width="170" height="140" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <circle cx="312" cy="192" r="8" fill="#2563eb"/>
+  <text x="328" y="197" font-size="16" font-weight="700" fill="#1e3a8a">Explore</text>
+  <text x="306" y="226" font-size="13" fill="#1e3a8a">AI gives options,</text>
+  <text x="306" y="244" font-size="13" fill="#1e3a8a">human picks</text>
+
+  <rect x="110" y="318" width="170" height="140" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+  <circle cx="132" cy="342" r="8" fill="#ca8a04"/>
+  <text x="148" y="347" font-size="16" font-weight="700" fill="#713f12">Delegate +</text>
+  <text x="148" y="366" font-size="16" font-weight="700" fill="#713f12">Review</text>
+  <text x="126" y="394" font-size="13" fill="#713f12">AI does it,</text>
+  <text x="126" y="412" font-size="13" fill="#713f12">always verified</text>
+  <text x="126" y="430" font-size="13" fill="#713f12">before use</text>
+
+  <rect x="290" y="318" width="170" height="140" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <circle cx="312" cy="342" r="8" fill="#dc2626"/>
+  <text x="328" y="347" font-size="16" font-weight="700" fill="#7f1d1d">Advise</text>
+  <text x="306" y="376" font-size="13" fill="#7f1d1d">AI advises,</text>
+  <text x="306" y="394" font-size="13" fill="#7f1d1d">human decides</text>
+  <text x="306" y="412" font-size="13" fill="#7f1d1d">and owns it</text>
+
+  <text x="110" y="488" font-size="13" fill="#4b5563">Make tasks easier to verify to move them left:</text>
+  <text x="110" y="506" font-size="13" fill="#4b5563">smaller pieces, sources, tests, structured output.</text>
+
+  <text x="520" y="132" font-size="17" font-weight="700" fill="#111827">2 · The cycle</text>
+  <g font-size="14" fill="#111827">
+    <rect x="520" y="148" width="370" height="36" rx="8" fill="#f3f4f6"/>
+    <text x="536" y="171"><tspan font-weight="700">1 Triage</tspan>  — place the task on the Trust Map</text>
+    <rect x="520" y="192" width="370" height="36" rx="8" fill="#f3f4f6"/>
+    <text x="536" y="215"><tspan font-weight="700">2 Contract</tspan>  — goal, done criteria, boundaries</text>
+    <rect x="520" y="236" width="370" height="36" rx="8" fill="#f3f4f6"/>
+    <text x="536" y="259"><tspan font-weight="700">3 Make</tspan>  — AI produces the result</text>
+    <rect x="520" y="280" width="370" height="36" rx="8" fill="#fde68a"/>
+    <text x="536" y="303"><tspan font-weight="700">4 Break</tspan>  — separate pass tries to prove it wrong</text>
+    <rect x="520" y="324" width="370" height="36" rx="8" fill="#f3f4f6"/>
+    <text x="536" y="347"><tspan font-weight="700">5 Gate</tspan>  — R0–R3; irreversible = human</text>
+    <rect x="520" y="368" width="370" height="36" rx="8" fill="#f3f4f6"/>
+    <text x="536" y="391"><tspan font-weight="700">6 Log</tspan>  — record decisions and reasons</text>
+    <rect x="520" y="412" width="370" height="36" rx="8" fill="#f3f4f6"/>
+    <text x="536" y="435"><tspan font-weight="700">7 Measure</tspan>  — time-to-verified, escaped errors</text>
+  </g>
+  <path d="M 892 298 C 926 298, 926 254, 898 254" fill="none" stroke="#b45309" stroke-width="2"/>
+  <path d="M 898 254 l 9 -5 l 0 10 z" fill="#b45309"/>
+  <text x="914" y="322" font-size="12" fill="#b45309" text-anchor="middle">fix</text>
+
+  <text x="520" y="488" font-size="13" fill="#4b5563"><tspan font-weight="700" fill="#991b1b">R3</tspan> = send · publish · pay · delete · sign · deploy</text>
+  <text x="520" y="506" font-size="13" fill="#4b5563">→ always a human approval, one action at a time.</text>
+
+  <text x="40" y="540" font-size="12" fill="#9ca3af">github.com/flakeman/verifirst-ai-framework · CC BY 4.0</text>
+</svg>

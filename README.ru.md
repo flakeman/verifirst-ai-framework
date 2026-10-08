@@ -22,6 +22,20 @@ VeriFirst построен вокруг одного правила:
 
 ---
 
+![VeriFirst: Карта доверия и цикл](assets/verifirst-ru.svg)
+
+## С чего начать
+
+| Если нужно… | Открыть |
+|---|---|
+| Понять идею за 5 минут | [Шпаргалка](CHEATSHEET.ru.md) |
+| Чтобы ИИ-ассистент сам работал по VeriFirst | [Инструкции для ИИ](ai-instructions/README.md) — Claude, ChatGPT, Claude Code, Cursor, Copilot |
+| Встроить в GitHub или Jira команды | [Интеграции](integrations/README.md) — форма задачи, шаблон PR, настройка Jira |
+| Применять внутри Scrum, Kanban или Waterfall | [Интеграция с Agile и Waterfall](docs/ru/integration.md) |
+| Внедрить в нескольких командах или компании | [Масштабирование](docs/ru/scaling.md) |
+
+---
+
 ## Принципы
 
 | # | Принцип | Что это значит на практике |
@@ -235,6 +249,10 @@ flowchart LR
 ├── README.md                     # Фреймворк (английский)
 ├── LICENSE                       # CC BY 4.0
 ├── README.ru.md                  # Фреймворк (русский)
+├── CHEATSHEET.md / .ru.md        # Шпаргалка на одну страницу
+├── assets/                       # Схемы (EN, RU)
+├── ai-instructions/              # Промпты и файлы правил для ИИ-инструментов
+├── integrations/                 # Шаблоны GitHub issue/PR, настройка Jira
 ├── docs/
 │   ├── en/                       # Интеграция и масштабирование (EN)
 │   └── ru/                       # Интеграция и масштабирование (RU)
