@@ -33,6 +33,8 @@ Everything else follows from it.
 | Put it into your team's GitHub or Jira | [Integrations](integrations/README.md) — issue form, PR template, Jira setup |
 | Use it inside Scrum, Kanban or Waterfall | [Integration guide](docs/en/integration.md) |
 | Roll it out across several teams or a company | [Scaling guide](docs/en/scaling.md) |
+| Assess where your team or company stands | [Maturity model](docs/en/maturity-model.md) — 5 levels, self-assessment, next steps |
+| Talk to risk managers and auditors | [Mapping to NIST AI RMF and ISO/IEC 42001](docs/en/standards-mapping.md) |
 
 ---
 
@@ -248,14 +250,15 @@ What this metric deliberately ignores: pages, lines of code, number of drafts. A
 .
 ├── README.md                     # Framework (English)
 ├── LICENSE                       # CC BY 4.0
+├── CONTRIBUTING.md               # How to contribute
 ├── README.ru.md                  # Framework (Russian)
 ├── CHEATSHEET.md / .ru.md        # One-page summary
 ├── assets/                       # Diagrams (EN, RU)
 ├── ai-instructions/              # Prompts and rule files for AI tools
 ├── integrations/                 # GitHub issue/PR templates, Jira setup
 ├── docs/
-│   ├── en/                       # Integration & scaling (English)
-│   └── ru/                       # Integration & scaling (Russian)
+│   ├── en/                       # Integration, scaling, maturity model, standards mapping
+│   └── ru/                       # Same in Russian
 └── templates/
     ├── en/
     │   ├── task-triage.md        # Trust Map worksheet
@@ -273,7 +276,7 @@ What this metric deliberately ignores: pages, lines of code, number of drafts. A
 
 ## Contributing
 
-Ideas, examples from real projects and translations are welcome — open an issue or a pull request.
+Ideas, real cases, integrations and translations are welcome — see [CONTRIBUTING](CONTRIBUTING.md).
 
 ---
 
