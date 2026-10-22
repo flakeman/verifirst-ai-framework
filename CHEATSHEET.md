@@ -38,7 +38,7 @@ Max 3 Make–Break rounds. Still failing → rewrite the task, not the result.
 ## Remember and measure
 
 - **Decision Log:** decision · reason · rejected options · revisit if. Feed it back to the AI.
-- **TTV** — time until the result is verified, not until it is produced. Track **escaped errors**.
+- **Time-to-Verified** — time until the result is verified, not until it is produced. Track **escaped errors**.
 
 ## Start tomorrow
 

@@ -20,7 +20,7 @@ This table shows which VeriFirst elements support the requirements of two widely
 | **Make–Break** (independent verification) | MEASURE 1 (methods and metrics), MEASURE 2 (trustworthiness evaluation) | A.6 (verification and validation), clause 9 (performance evaluation) |
 | **Decision Log** | GOVERN 1 (policies and documentation), MANAGE 4 (documented risk treatment plans) | Clause 7 (documented information), A.8 (information for interested parties) |
 | **Reversibility Gates R0–R3** | GOVERN 2 (roles and accountability), MANAGE 1–2 (risk response) | Clause 8 (operation), A.3 (roles and authority), A.9 (responsible use) |
-| **Metrics** (TTV, escaped errors) | MEASURE 3 (tracking risks over time), MEASURE 4 (feedback on measurement efficacy) | Clause 9 (monitoring and measurement), clause 10 (improvement) |
+| **Metrics** (Time-to-Verified, escaped errors) | MEASURE 3 (tracking risks over time), MEASURE 4 (feedback on measurement efficacy) | Clause 9 (monitoring and measurement), clause 10 (improvement) |
 | **Company policy** ([scaling](scaling.md)) | GOVERN 1 (policies), GOVERN 4 (risk-aware culture) | Clause 5 (leadership and policy), A.2 (policies related to AI) |
 | **AI system register** | GOVERN 1, MAP 2 | Clause 4 (context and scope of the management system), A.5 |
 | **Verifiability owner** | GOVERN 2 (accountability) | A.3 (internal organisation) |

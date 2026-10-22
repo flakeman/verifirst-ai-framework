@@ -68,7 +68,7 @@ Answer "yes" only if it holds for most people or tasks, not for a few enthusiast
 - Add the [issue form and PR template](../../integrations/README.md) to the tracker.
 - Add "Break pass done" to the Definition of Done for 🟡 and 🔴 work.
 - Create `DECISIONS.md` in every active project.
-- Start tracking TTV and escaped errors, even manually, once per sprint.
+- Start tracking Time-to-Verified and escaped errors, even manually, once per sprint.
 
 **Sign of success:** escaped errors are a standing topic at retrospectives.
 

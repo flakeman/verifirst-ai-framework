@@ -29,8 +29,8 @@ Everything else follows from it.
 | If you want to… | Open |
 |---|---|
 | Get the idea in 5 minutes | [Cheat sheet](CHEATSHEET.md) |
-| Make your AI assistant follow VeriFirst automatically | [AI instructions](ai-instructions/README.md) — Claude, ChatGPT, Claude Code, Cursor, Copilot |
-| Put it into your team's GitHub or Jira | [Integrations](integrations/README.md) — issue form, PR template, Jira setup |
+| Make your AI assistant follow VeriFirst automatically | [AI instructions](ai-instructions/README.md) — Claude, ChatGPT, GigaChat, YandexGPT, DeepSeek, Claude Code, Cursor, Copilot |
+| Put it into your team's GitHub or Jira | [Integrations](integrations/README.md) — issue form, PR template, Jira, Yandex Tracker, Kaiten |
 | Use it inside Scrum, Kanban or Waterfall | [Integration guide](docs/en/integration.md) |
 | Roll it out across several teams or a company | [Scaling guide](docs/en/scaling.md) |
 | See real cases from practice | [Case studies](docs/en/case-studies.md) — 6 situations where AI erred or could have, and what caught it |
@@ -189,19 +189,21 @@ Raise autonomy by making actions cheaper to undo (version control, backups, stag
 
 ---
 
-## 6. Time-to-Verified (TTV)
+## 6. Time-to-Verified
 
 The primary metric:
 
-> **TTV** = time from stating the task to the moment the result is **verified and trusted enough to use**.
+> **Time-to-Verified** = time from stating the task to the moment the result is **verified and trusted enough to use**.
 
 Supporting metrics:
 
 - **Rework rate** — share of tasks that needed more than one Make–Break iteration.
 - **Escape rate** — errors found *after* a result was accepted. This is the one to drive toward zero for 🟡 and 🔴 tasks.
-- **Verification share** — share of TTV spent on checking. If it is high, invest in making tasks easier to verify (see Trust Map).
+- **Verification share** — share of Time-to-Verified spent on checking. If it is high, invest in making tasks easier to verify (see Trust Map).
 
-What this metric deliberately ignores: pages, lines of code, number of drafts. An AI that produced 40 pages in a minute that took three days to check has a TTV of three days.
+What this metric deliberately ignores: pages, lines of code, number of drafts. An AI that produced 40 pages in a minute that took three days to check has a Time-to-Verified of three days.
+
+> Not to be confused with *Time-to-Value* (time until a user gets value from a product), which is also often abbreviated TTV. That is why VeriFirst writes the name in full.
 
 ---
 
@@ -221,7 +223,7 @@ What this metric deliberately ignores: pages, lines of code, number of drafts. A
 | **Prompt as wish** | Gaps get filled with plausible inventions. | Intent Contract with Boundaries. |
 | **Context amnesia** | Each session re-litigates old decisions. | Decision Log fed back in. |
 | **All-or-nothing autonomy** | One bad irreversible action outweighs a hundred good ones. | Reversibility levels R0–R3. |
-| **Volume as success** | Output is free; trust is not. | Measure TTV and escape rate. |
+| **Volume as success** | Output is free; trust is not. | Measure Time-to-Verified and escape rate. |
 | **Endless loop** | Iterating instead of fixing a bad task definition. | Iteration limit → revisit the contract. |
 
 ---
@@ -237,7 +239,7 @@ What this metric deliberately ignores: pages, lines of code, number of drafts. A
 1. Use the Intent Contract template for any delegated AI task.
 2. Keep one Decision Log per project, in the repo.
 3. Agree on which actions are R2 and R3 for your systems; enforce human gates for R3.
-4. Track TTV and escape rate for a month; move high-verification-cost tasks to better quadrants.
+4. Track Time-to-Verified and escape rate for a month; move high-verification-cost tasks to better quadrants.
 
 **Roles (optional for teams)**
 - **Owner** — writes the Intent Contract, accepts the result.

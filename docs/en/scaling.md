@@ -11,7 +11,7 @@ The logic mirrors SAFe: team → team of teams → portfolio. Each level uses th
 | **Make–Break** | Separate pass | Cross-team review: one team's 🔴 output is checked by another | Independent audit of critical AI systems |
 | **Decision Log** | Per project | Shared log of cross-team decisions | AI decision register for leadership and regulators |
 | **Reversibility** | Team agreement | Shared R0–R3 classification of systems | Company-wide AI autonomy policy |
-| **Metrics** | TTV, rework | Escape rate per team and at interfaces; verification capacity per increment | Escape-rate trend, verification cost share, incidents |
+| **Metrics** | Time-to-Verified, rework | Escape rate per team and at interfaces; verification capacity per increment | Escape-rate trend, verification cost share, incidents |
 
 ---
 

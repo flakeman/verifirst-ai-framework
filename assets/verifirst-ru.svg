@@ -55,7 +55,7 @@
     <rect x="520" y="368" width="370" height="36" rx="8" fill="#f3f4f6"/>
     <text x="536" y="391"><tspan font-weight="700">6 Журнал</tspan>  — решения и их причины</text>
     <rect x="520" y="412" width="370" height="36" rx="8" fill="#f3f4f6"/>
-    <text x="536" y="435"><tspan font-weight="700">7 Метрика</tspan>  — TTV, ускользнувшие ошибки</text>
+    <text x="536" y="435" font-size="13"><tspan font-weight="700" font-size="14">7 Метрика</tspan>  — время до проверки, ускользнувшие ошибки</text>
   </g>
   <path d="M 892 298 C 926 298, 926 254, 898 254" fill="none" stroke="#b45309" stroke-width="2"/>
   <path d="M 898 254 l 9 -5 l 0 10 z" fill="#b45309"/>

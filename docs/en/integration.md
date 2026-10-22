@@ -14,7 +14,7 @@ VeriFirst does not replace Scrum, Kanban or Waterfall. Delivery models answer "i
 | Definition of Ready | A story is not ready without checkable Done criteria |
 | Definition of Done | 🟡 and 🔴 work requires a completed Break pass |
 | Refinement / planning | Each story gets a Trust Map quadrant; sprint capacity includes time for verification |
-| Velocity | Complemented by TTV and escape rate |
+| Velocity | Complemented by Time-to-Verified and escape rate |
 | Retrospective | Review escaped errors: at which step should they have been caught |
 
 ### Example: online store, discount calculation

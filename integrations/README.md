@@ -34,3 +34,18 @@ Jira has no single file to drop in, so set it up once by hand. Exact menu names 
    Для результатов, принятых без обязательного прохода «Сломай». Смотреть их число на каждом планировании.
 5. **Dashboard · Дашборд** — issues reopened after *Done* because of an AI error (escaped errors) and the count of `verification-debt` issues.
    Задачи, переоткрытые после «Готово» из-за ошибки ИИ (ускользнувшие ошибки), и число задач с меткой `verification-debt`.
+
+---
+
+## Yandex Tracker, Kaiten and other trackers · Яндекс Трекер, Kaiten и другие трекеры
+
+The same five steps as for Jira work in any tracker that has custom fields, description templates and board columns. Field and menu names differ between tools and versions; check your tracker's documentation.
+Те же пять шагов, что и для Jira, подходят для любого трекера, где есть свои поля, шаблоны описания и колонки доски. Названия полей и меню различаются; сверяйтесь с документацией вашего трекера.
+
+| Step · Шаг | What to set up · Что настроить |
+|---|---|
+| 1 | A field or tag for the Trust Map quadrant (🟢 🟡 🔵 🔴) · Поле или тег для квадранта Карты доверия |
+| 2 | A task template with the Intent Contract ([EN](../templates/en/intent-contract.md) · [RU](../templates/ru/intent-contract.md)) · Шаблон задачи с Контрактом намерения |
+| 3 | A "Verification" column between "In progress" and "Done"; for 🟡 and 🔴 the verifier is not the assignee · Колонка «Проверка» между «В работе» и «Готово»; для 🟡 и 🔴 проверяет не исполнитель |
+| 4 | A `verification-debt` tag for results accepted without a Break pass · Тег `verification-debt` для результатов, принятых без прохода «Сломай» |
+| 5 | A filter or report: tasks reopened after "Done" because of an AI error · Фильтр или отчёт: задачи, переоткрытые после «Готово» из-за ошибки ИИ |
