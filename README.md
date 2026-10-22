@@ -24,6 +24,15 @@ Everything else follows from it.
 
 ![VeriFirst: Trust Map and the cycle](assets/verifirst-en.svg)
 
+<details>
+<summary>🇷🇺 Схема на русском · Russian version of the diagram</summary>
+
+![VeriFirst: Карта доверия и цикл](assets/verifirst-ru.svg)
+
+Полное описание на русском — в [README.ru.md](README.ru.md).
+
+</details>
+
 ## Start here
 
 | If you want to… | Open |
